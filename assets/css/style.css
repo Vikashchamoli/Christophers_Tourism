@@ -227,7 +227,8 @@ body { background: var(--white); }
 
 .header.active .header-top {
   position: fixed;
-  background: var(--gunmetal);
+  background-image: linear-gradient(133deg,#4B1D7085 0%,#B0067D 100%);
+
 }
 
 .header-top .container {
@@ -484,7 +485,7 @@ body { background: var(--white); }
 
 
 .popular-card .card-rating {
-  background: var(--bright-navy-blue);
+  background-image: linear-gradient(133deg,#4B1D70 0%,#B0067D 100%);
   color: var(--white);
   position: absolute;
   top: 0;
@@ -526,6 +527,7 @@ body { background: var(--white); }
 .package-list > li:not(:last-child) { margin-bottom: 30px; }
 
 .package-card {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   background: var(--cultured);
   overflow: hidden;
   border-radius: 15px;
@@ -539,13 +541,15 @@ body { background: var(--white); }
   object-fit: cover;
 }
 
-.package-card .card-content { padding: 30px 20px; }
+.package-card .card-content {background-image: linear-gradient(133deg,#4B1D7085 0%,#B0067D 100%);
+  color: white; padding: 30px 20px; }
 
 .package-card .card-title { margin-bottom: 15px; }
 
 .package-card .card-text {
   line-height: 1.6;
   margin-bottom: 20px;
+  color: white;
 }
 
 .card-meta-list {
@@ -669,7 +673,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .cta {
-  background: var(--bright-navy-blue);
+  background-image: linear-gradient(133deg,#4B1D70 0%,#B0067D 100%);
   padding-block: var(--section-padding);
 }
 
